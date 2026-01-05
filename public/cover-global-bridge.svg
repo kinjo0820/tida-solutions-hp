@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1">
+      <stop offset="0" stop-color="#f97316" />
+      <stop offset="1" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="#050505"/>
+  <circle cx="600" cy="200" r="200" fill="url(#g3)" opacity="0.12"/>
+  <g transform="translate(160,100)">
+    <text x="0" y="120" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#fff" opacity="0.08">Global Technology</text>
+  </g>
+</svg>

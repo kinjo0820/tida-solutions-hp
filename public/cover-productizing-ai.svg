@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0" stop-color="#60a5fa" />
+      <stop offset="1" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="#050505"/>
+  <circle cx="980" cy="220" r="180" fill="url(#g2)" opacity="0.12"/>
+  <g transform="translate(120,80)">
+    <text x="0" y="120" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#fff" opacity="0.08">Productizing AI</text>
+  </g>
+</svg>
