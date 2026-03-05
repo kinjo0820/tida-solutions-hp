@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -11,7 +12,7 @@ export default function Header() {
     <header className="border-b border-orange-100 bg-white/90 backdrop-blur-xl shadow-sm">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src="/logo.svg" alt="Tida Solutions" className="w-10 h-10 rounded-xl shadow-lg" />
+          <Image src="/logo.svg" alt="Tida Solutions" width={40} height={40} className="rounded-xl shadow-lg" />
           <span className="text-xl font-bold tracking-tight text-slate-800">Tida Solutions</span>
         </div>
 

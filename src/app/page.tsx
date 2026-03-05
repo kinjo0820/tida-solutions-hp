@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Terminal, Cpu, Globe, Zap, BarChart3, Binary } from 'lucide-react';
+import { Cpu, Zap, Binary } from 'lucide-react';
 
 export default function Home() {
   return (

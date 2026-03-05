@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { posts } from '../../lib/posts';
 
 export default function Blog() {
@@ -15,7 +16,7 @@ export default function Blog() {
             <article key={post.slug} className="p-6 rounded-2xl border border-[var(--card-border)] bg-white shadow-sm">
               {post.cover && (
                 <div className="mb-4 overflow-hidden rounded-xl">
-                  <img src={post.cover} alt={post.title} className="w-full h-48 object-cover" />
+                  <Image src={post.cover} alt={post.title} width={800} height={192} className="w-full h-48 object-cover" />
                 </div>
               )}
               <h2 className="text-2xl font-bold mb-2">

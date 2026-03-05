@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { posts, getPostBySlug } from '../../../lib/posts';
 
 export async function generateStaticParams() {
@@ -29,7 +30,7 @@ export default async function PostPage({ params }: { params: { slug: string } | 
         <article className="p-10 bg-white/5 border border-white/5 rounded-2xl shadow-sm max-w-3xl mx-auto">
           {post.cover && (
             <div className="mb-6 overflow-hidden rounded-xl">
-              <img src={post.cover} alt={post.title} className="w-full h-64 object-cover" />
+              <Image src={post.cover} alt={post.title} width={800} height={256} className="w-full h-64 object-cover" />
             </div>
           )}
           <h1 className="text-3xl font-bold mb-2 text-white">{post.title}</h1>
