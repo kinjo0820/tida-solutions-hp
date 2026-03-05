@@ -43,7 +43,7 @@ export default function Solutions() {
         <section className="mt-12">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-extrabold mb-3">事業の強み</h2>
-            <p className=”text-slate-600 max-w-3xl mx-auto”>企業や社会が直面する課題はますます複雑化し、その中心には必ず&ldquo;データ&rdquo;が存在します。データ領域に特化したプロフェッショナル集団として、お客様の多様な課題に寄り添い、ビジネス成長を力強く支援します。</p>
+            <p className="text-slate-600 max-w-3xl mx-auto">企業や社会が直面する課題はますます複雑化し、その中心には必ず&ldquo;データ&rdquo;が存在します。データ領域に特化したプロフェッショナル集団として、お客様の多様な課題に寄り添い、ビジネス成長を力強く支援します。</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
