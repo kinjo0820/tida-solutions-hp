@@ -14,28 +14,27 @@ const DOMAIN_DESCRIPTIONS: Record<string, string> = {
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-[#050505] text-slate-50 font-sans">
-
+    <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">
 
       <main className="py-24 px-6 max-w-6xl mx-auto">
         <h1 className="text-4xl font-extrabold mb-6">Projects & Focus Domains</h1>
-        <p className="text-slate-400 mb-8">私たちが重点的に取り組む分野と、そこでの実装例・価値を紹介します。</p>
+        <p className="text-slate-600 mb-8">私たちが重点的に取り組む分野と、そこでの実装例・価値を紹介します。</p>
 
         <div className="grid md:grid-cols-2 gap-6">
           {Object.entries(DOMAIN_DESCRIPTIONS).map(([name, desc]) => (
-            <div key={name} className="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
-              <h3 className="text-lg font-bold mb-2 text-white">{name}</h3>
-              <p className="text-slate-400">{desc}</p>
+            <div key={name} className="p-6 rounded-2xl bg-white border border-[var(--card-border)] shadow-sm">
+              <h3 className="text-lg font-bold mb-2 text-[var(--foreground)]">{name}</h3>
+              <p className="text-slate-500">{desc}</p>
             </div>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <Link href="/recruit" className="inline-block bg-(--accent) text-black px-6 py-3 rounded-full font-bold">Partner with us</Link>
+          <Link href="/recruit" className="inline-block bg-(--accent) text-white px-6 py-3 rounded-full font-bold">Partner with us</Link>
         </div>
       </main>
 
-      <footer className="py-12 px-6 border-t border-white/5 text-center text-slate-400">© 2026 Tida Solutions Inc.</footer>
+      <footer className="py-12 px-6 border-t border-orange-100 text-center text-slate-500 bg-[var(--section-alt)]">© 2026 Tida Solutions Inc.</footer>
     </div>
   );
 }
