@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Cpu, Terminal, Globe } from 'lucide-react';
+import { Cpu, Terminal } from 'lucide-react';
 
 export default function Solutions() {
   return (
