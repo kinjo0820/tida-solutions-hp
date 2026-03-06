@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Terminal, Cpu, Globe, Zap, BarChart3, Binary } from 'lucide-react';
+import { Terminal, Cpu, Globe, Bot, BarChart3, Binary } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { icon: <Cpu />, title: "AI導入支援", desc: "コンサルティング・受託開発を超えて、AI技術で課題解決を加速します。" },
-              { icon: <Zap />, title: "AIを活用した自社事業", desc: "自社プロダクトでAIを実践的に活用し、価値のスケールを目指します。" }
+              { icon: <Bot />, title: "AIエージェント開発", desc: "自律型AIエージェントの研究・開発を行い、業務の知的自動化と次世代AI活用の最前線を切り開きます。" }
             ].map((item, i) => (
               <div key={i} className="group p-10 rounded-3xl bg-white border border-orange-100 shadow-sm hover:shadow-md hover:border-(--accent) transition-all">
                 <div className="w-14 h-14 bg-orange-50 text-(--accent) rounded-2xl flex items-center justify-center mb-8 group-hover:bg-(--accent) group-hover:text-white transition-all">

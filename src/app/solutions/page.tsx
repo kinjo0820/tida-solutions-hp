@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Cpu, Terminal } from 'lucide-react';
+import { Cpu, Bot } from 'lucide-react';
 
 export default function Solutions() {
   return (
@@ -9,7 +9,7 @@ export default function Solutions() {
       <main className="py-24 px-6 max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-extrabold mb-4">Solutions</h1>
-          <p className="text-slate-600 max-w-3xl mx-auto">私たちの事業領域ごとの提供価値と事例を紹介します。受託開発から自社事業、海外連携まで幅広くカバーします。</p>
+          <p className="text-slate-600 max-w-3xl mx-auto">私たちの事業領域ごとの提供価値と事例を紹介します。AI受託開発からAIエージェント・研究活動まで、AIを中心に幅広くカバーします。</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
@@ -28,14 +28,14 @@ export default function Solutions() {
 
           <div className="p-8 rounded-2xl bg-white border border-[var(--card-border)] shadow-sm">
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-12 h-12 bg-orange-100 text-(--accent) rounded-lg flex items-center justify-center"><Terminal size={18} /></div>
-              <h3 className="text-xl font-bold">AIを活用した自社事業</h3>
+              <div className="w-12 h-12 bg-orange-100 text-(--accent) rounded-lg flex items-center justify-center"><Bot size={18} /></div>
+              <h3 className="text-xl font-bold">AIエージェント開発・研究</h3>
             </div>
-            <p className="text-slate-600">自社プロダクトでAIを実装し、実際のユーザー行動を通じて価値を検証・拡張します。プロダクト化のための運用設計も実施。</p>
+            <p className="text-slate-600">自律型AIエージェントの研究・開発を通じて、業務の知的自動化と次世代AI活用を推進します。最新モデルの社会実装を加速します。</p>
             <ul className="mt-3 text-slate-500 list-disc list-inside space-y-1">
-              <li>MVP設計と実証</li>
-              <li>KPI設計とABテスト</li>
-              <li>スケーラブルな運用設計</li>
+              <li>マルチエージェントシステム設計・実装</li>
+              <li>LLM・生成AI活用ソリューション開発</li>
+              <li>AI研究の社会実装・プロトタイピング</li>
             </ul>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function Solutions() {
 
         <section className="mt-12">
           <h2 className="text-2xl font-bold mb-4">サービス</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 rounded-2xl bg-white border border-[var(--card-border)] shadow-sm">
               <h4 className="font-semibold mb-2">AI活用コンサルティング</h4>
               <p className="text-slate-600 mb-2">経営課題から現場までを俯瞰し、戦略策定から実装・定着化まで一気通貫で支援します。PoCから本番導入、業務定着まで伴走します。</p>
@@ -84,6 +84,10 @@ export default function Solutions() {
             <div className="p-6 rounded-2xl bg-white border border-[var(--card-border)] shadow-sm">
               <h4 className="font-semibold mb-2">システム/アプリケーション開発</h4>
               <p className="text-slate-600 mb-2">AIモデル組込みやアプリ開発、ダッシュボード構築まで行い、現場への浸透を支援します。運用・保守・改善も対応可能です。</p>
+            </div>
+            <div className="p-6 rounded-2xl bg-white border border-[var(--card-border)] shadow-sm">
+              <h4 className="font-semibold mb-2">AIエージェント開発・研究</h4>
+              <p className="text-slate-600 mb-2">LLMや生成AIを活用した自律型エージェントの設計・実装を行います。マルチエージェントシステムや最新AI技術の社会実装に取り組みます。</p>
             </div>
           </div>
         </section>
