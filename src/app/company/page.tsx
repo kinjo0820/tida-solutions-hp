@@ -43,7 +43,7 @@ export default function Company() {
 
         <section className="bg-white border border-[var(--card-border)] rounded-2xl p-6 shadow-sm">
           <h2 className="text-xl font-bold mb-3">会社概要（概要文）</h2>
-          <p className="text-slate-600">Tida SolutionsはAIを通じて社会の課題を解決することを目的に設立されました。受託開発と自社プロダクトを中心に事業を展開しています。沖縄を拠点に、国内外の技術と連携しながら社会実装を進めています。</p>
+          <p className="text-slate-600">Tida SolutionsはAIを通じて社会の課題を解決することを目的に設立されました。AI受託開発・コンサルティングとAIエージェント研究・開発を中心に活動を展開しています。沖縄を拠点に、国内外の最新AI技術と連携しながら社会実装を進めています。</p>
         </section>
 
       </main>
