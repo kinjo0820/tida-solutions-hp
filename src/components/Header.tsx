@@ -19,7 +19,6 @@ export default function Header() {
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           <Link href="/mission" className="hover:text-[var(--accent)]">Mission</Link>
           <Link href="/solutions" className="hover:text-[var(--accent)]">Solutions</Link>
-          <Link href="/projects" className="hover:text-[var(--accent)]">Projects</Link>
           <Link href="/company" className="hover:text-[var(--accent)]">Company</Link>
           <Link href="/blog" className="hover:text-[var(--accent)]">Blog</Link>
           <Link href="/recruit" className="bg-[var(--accent)] text-white px-4 py-2 rounded-full font-bold">Careers</Link>
@@ -38,7 +37,6 @@ export default function Header() {
             <Link href="/" onClick={() => setOpen(false)} className="py-2">Home</Link>
             <Link href="/mission" onClick={() => setOpen(false)} className="py-2">Mission</Link>
             <Link href="/solutions" onClick={() => setOpen(false)} className="py-2">Solutions</Link>
-            <Link href="/projects" onClick={() => setOpen(false)} className="py-2">Projects</Link>
             <Link href="/company" onClick={() => setOpen(false)} className="py-2">Company</Link>
             <Link href="/blog" onClick={() => setOpen(false)} className="py-2">Blog</Link>
             <Link href="/recruit" onClick={() => setOpen(false)} className="py-2 bg-[var(--accent)] text-white px-4 rounded-md w-max">Careers</Link>
