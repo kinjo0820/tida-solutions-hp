@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Terminal, Cpu, Globe, Bot, BarChart3, Binary } from 'lucide-react';
+import { Cpu, Bot, Binary } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -50,20 +50,6 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-[var(--foreground)]">{item.title}</h3>
                 <p className="text-slate-500 leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Domains */}
-      <section id="projects" className="py-32 px-6 bg-[var(--section-alt)]">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-16 text-[var(--foreground)]">Focus Domains</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {["不動産", "飲食", "観光", "スポーツ", "小売", "教育", "店舗", "テーマパーク"].map((name) => (
-              <div key={name} className="py-8 rounded-2xl border border-orange-100 bg-white hover:bg-orange-50 transition-all cursor-default group shadow-sm">
-                <span className="text-slate-500 group-hover:text-(--accent) transition-colors">{name}</span>
               </div>
             ))}
           </div>
