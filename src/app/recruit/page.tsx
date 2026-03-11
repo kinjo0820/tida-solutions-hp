@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Mail, Briefcase, Users } from 'lucide-react';
+import RecruitContactForm from '@/components/RecruitContactForm';
 
 export default function Recruit() {
   return (
@@ -40,14 +41,10 @@ export default function Recruit() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 flex items-center gap-2"><Mail size={18}/> 応募方法</h2>
-          <p className="text-slate-600 mb-4">以下のメールアドレスに、履歴書（PDF）と職務経歴書（任意）をお送りください。件名は「採用応募：職種名 - 氏名」としてください。</p>
+          <h2 className="text-2xl font-bold mb-4 flex items-center gap-2"><Mail size={18}/> 応募・お問い合わせ</h2>
+          <p className="text-slate-600 mb-4">下記フォームからお気軽にお問い合わせください。メールでのご連絡も歓迎しております。</p>
           <a href="mailto:taichi@tida-intern.com?subject=採用応募" className="inline-flex items-center gap-2 bg-(--accent) text-white px-4 py-3 rounded-md font-bold hover:opacity-90 transition">taichi@tida-intern.com</a>
-        </section>
-
-        <section>
-          <h3 className="text-lg font-semibold mb-2">その他</h3>
-          <p className="text-slate-600">ご質問や採用に関するご相談は上記メールアドレスまでお気軽にご連絡ください。</p>
+          <RecruitContactForm />
         </section>
       </main>
 
