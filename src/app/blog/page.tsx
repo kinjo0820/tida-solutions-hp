@@ -7,7 +7,7 @@ export default function Blog() {
     <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] font-sans">
 
       <main className="py-24 px-6 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-extrabold mb-6 text-[var(--foreground)]">ブログ</h1>
+        <h1 className=”text-4xl font-extrabold mb-6 text-[var(--foreground)]">ブログ</h1>
         <p className="text-slate-600 mb-8">最新の技術や導入事例、Tidaの活動レポートを掲載します（ダミー記事）。</p>
 
         <div className="grid gap-6">
