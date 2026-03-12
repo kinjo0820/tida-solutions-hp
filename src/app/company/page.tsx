@@ -14,28 +14,9 @@ export default function Company() {
               <div>
                 <dt className="text-sm text-slate-500">会社名</dt>
                 <dd className="font-medium text-[var(--foreground)]">株式会社Tida Solutions（株式会社ティーダソリューションズ）</dd>
+              </di
               </div>
-              <div>
-                <dt className="text-sm text-slate-500">所在地</dt>
-                <dd className="font-medium">〒904-0004 沖縄県沖縄市中央1丁目7-8 2階 KSA Works</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-slate-500">代表者</dt>
-                <dd className="font-medium">代表取締役社長 金城 太一（Kinjo Taichi）</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-slate-500">設立</dt>
-                <dd className="font-medium">2024年11月26日</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-slate-500">メンバー数</dt>
-                <dd className="font-medium">2名（2024年12月現在）</dd>
-              </div>
-            </dl>
-          </div>
-          <div>
-            <h3 className="text-sm text-slate-500">お問い合わせ</h3>
-            <p className="mt-2 text-slate-600">メール: <a href="mailto:taichi@tida-intern.com" className="text-(--accent) font-medium">taichi@tida-intern.com</a></p>
+            tida-intern.com" className="text-(--accent) font-medium">taichi@tida-intern.com</a></p>
             <p className="mt-2 text-slate-600">営業時間: 平日 10:00〜19:00</p>
             <p className="mt-4 text-slate-500">Google マップ: <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/search/?api=1&query=%EF%BC%91904-0004%20%E6%B2%96%E7%B8%84%E7%9C%8C%E6%B2%96%E7%B8%84%E5%B8%82%E4%B8%AD%E5%A4%AE1%E4%B8%81%E7%9B%AE7-8%202%E9%9A%8E%20KSA%20Works" className="text-(--accent) font-medium">地図で開く</a></p>
           </div>
